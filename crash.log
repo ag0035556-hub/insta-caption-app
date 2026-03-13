@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\insta-caption-app\debug_wrapper.py", line 7, in <module>
+    runpy.run_path("app.py", run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "app.py", line 2, in <module>
+    from flask import Flask, render_template_string, request, jsonify
+ModuleNotFoundError: No module named 'flask'
